@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF673AB7"
+    tools:context=".CancerActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="413dp"
+        android:layout_height="73dp"
+        android:text="Cancer"
+        android:textAlignment="center"
+        android:textColor="#ffff00"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="427dp"
+        android:layout_height="36dp"
+        android:text="22Jun-23Jul"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="88dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="394dp"
+        android:layout_height="398dp"
+        android:text="Cancers are champions of their loved ones. They will fiercely protect and defend their lovers. Known for their sensitivity, Cancers in love can be very sentimental when things are going well, yet if things get difficult their feelings get very hurt quickly. They are careful with themselves and may not easily show their vulnerabilities when first beginning a love affair."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteY="196dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="406dp"
+        android:layout_height="111dp"
+        android:text="Most comaptible with Cancer: Taurus, Cancer, Virgo"
+        android:textSize="25dp"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteY="622dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

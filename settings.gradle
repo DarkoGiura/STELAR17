@@ -1,0 +1,2 @@
+rootProject.name = "STELAR17"
+include ':app'

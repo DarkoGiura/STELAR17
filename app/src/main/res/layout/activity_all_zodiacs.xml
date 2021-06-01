@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow"
+    tools:context=".AllZodiacsActivity">
+
+    <Button
+        android:id="@+id/aries_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Aries (21Mar-19Feb)"
+        app:backgroundTint="#FF5722"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cancer_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Cancer (22Jun-23Jul)"
+        app:backgroundTint="#673AB7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/libra_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Libra (23Sept-22Oct)"
+        app:backgroundTint="#8586FF"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="569dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/scorpio_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Scorpio(23Oct-22Nov)"
+        android:textStyle="bold"
+        app:backgroundTint="#51432D"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="569dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/saggitarius_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Saggitarius (23Nov-20Dec)"
+        app:backgroundTint="#009688"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="569dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/leo_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Leo (24Jul-23Aug)"
+        android:textStyle="bold"
+        app:backgroundTint="#FFEB3B"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="425dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/virgo_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Virgo (24Aug-22Sept)"
+        app:backgroundTint="#D67999"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="425dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/taurus_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Taurus (20Apr-20May)"
+        app:backgroundTint="#92EA2C"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/gemeni_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Gemeni (21May-21Jun)"
+        app:backgroundTint="#BA1414"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/pisces_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Pisces (20Feb-20Mar)"
+        android:textStyle="bold"
+        app:backgroundTint="#E91E63"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="123dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/aquarius_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Aquarius (21Jan-19Feb)"
+        android:textStyle="bold"
+        app:backgroundTint="#3F51B5"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="123dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="123dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <Button
+        android:id="@+id/capricorn_button"
+        android:layout_width="95dp"
+        android:layout_height="123dp"
+        android:text="Capricorn (22Dec-20Jan)"
+        android:textStyle="bold"
+        app:backgroundTint="#4CAF50"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="123dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="415dp"
+        android:layout_height="89dp"
+        android:text="       Stelar"
+        android:textColor="#FFE91E63"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
